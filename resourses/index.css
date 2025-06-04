@@ -8,7 +8,6 @@
 main{
     display: grid;
     grid-template-columns: 40% 1fr;
-    /* border: 2px solid red; */
     width: 50%;
     margin: auto;
     margin-top: 35px;
@@ -66,6 +65,7 @@ input{
     font-size: 18px;
     color: #2873f0;
     font-weight: 600;
+    cursor: pointer;
 }
 span{
     color: #2873f0;
@@ -99,7 +99,7 @@ span{
     width: 100%;
     padding: 10px 0px;
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 25px;
     font-weight: 600;
     cursor: pointer;
     border-radius: 1px;
